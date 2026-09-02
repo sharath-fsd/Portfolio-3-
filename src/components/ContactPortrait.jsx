@@ -1,20 +1,13 @@
-import { useRef } from "react"; 
 import { socialLinks } from "../data/portfolio.js";
-import usePortraitScrollAnimation from "../hooks/usePortraitScrollAnimation.js";
 import Icon from "./Icon.jsx";
 
 export default function ContactPortrait() {
-  // const sectionRef = useRef(null);
-  // usePortraitScrollAnimation(sectionRef);
-
   return (
     <section
-      // ref={sectionRef}
       className="contact-portrait"
       id="contact-portrait"
       aria-labelledby="portrait-profile-title"
     >
-      {/* <div className="contact-portrait-image" aria-hidden="true" /> */}
       <div className="portrait-profile page-shell">
         <div className="portrait-profile-card">
           <p className="portrait-kicker">Personal profile</p>
