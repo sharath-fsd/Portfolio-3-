@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 
 const FRAME_COUNT = 240;
-const FRAME_PATH = "/ezgif-5eed6a413f647cc1-jpg/ezgif-frame-";
+const FRAME_PATH = `${import.meta.env.BASE_URL}ezgif-5eed6a413f647cc1-jpg/ezgif-frame-`;
 const EASING = 0.16;
 
 const frameSource = (index) =>

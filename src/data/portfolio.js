@@ -1,10 +1,10 @@
-export const resumePath = "/output/pdf/Sarath-K-Resume.pdf";
+export const resumePath = `${import.meta.env.BASE_URL}output/pdf/Sarath-K-Resume.pdf`;
 
 export const projects = [
   {
     number: "01",
     title: ["Beauty Parlour", "Management"],
-    image: "/assets/projects/beauty-parlour-management.png",
+    image: `${import.meta.env.BASE_URL}assets/projects/beauty-parlour-management.png`,
     imageAlt: "Dark appointment and service management dashboard concept",
     stack:
       "Java · Spring Boot · Spring Security · JWT · Hibernate/JPA · MySQL · Maven · REST APIs · React.js",
@@ -26,7 +26,7 @@ export const projects = [
   {
     number: "02",
     title: ["E-Commerce", "Application"],
-    image: "/assets/projects/ecommerce-shopping.png",
+    image: `${import.meta.env.BASE_URL}assets/projects/ecommerce-shopping.png`,
     imageAlt: "Dark e-commerce operations and product dashboard concept",
     stack:
       "Java · Spring Boot · Spring Security · JWT · Hibernate/JPA · MySQL · Maven · REST APIs · React.js",
@@ -42,7 +42,7 @@ export const projects = [
   {
     number: "03",
     title: ["Car Rental", "Management"],
-    image: "/assets/projects/car-rental-management.png",
+    image: `${import.meta.env.BASE_URL}assets/projects/car-rental-management.png`,
     imageAlt: "Dark vehicle fleet and rental management dashboard concept",
     stack: "Java · Spring Boot · Hibernate/JPA · MySQL · Maven · REST APIs",
     details: [
