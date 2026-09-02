@@ -4,7 +4,7 @@ import SectionHeading from "./SectionHeading.jsx";
 function ProjectCard({ project }) {
   return (
     <article className="project-card reveal">
-      <p className="project-number">{project.number}</p>
+      <p className="project-number">Project / {project.number}</p>
       <figure className="project-visual">
         <img src={project.image} alt={project.imageAlt} loading="lazy" decoding="async" />
       </figure>

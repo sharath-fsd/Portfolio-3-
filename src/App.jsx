@@ -22,13 +22,15 @@ export default function App() {
       <Header />
       <main>
         <Hero />
-        <About />
-        <Projects />
-        <Skills />
-        <Credentials />
-        <Profile />
-        <Interests />
-        <Contact />
+        <div className="portfolio-content">
+          <About />
+          <Projects />
+          <Skills />
+          <Credentials />
+          <Profile />
+          <Interests />
+          <Contact />
+        </div>
         <ContactPortrait />
       </main>
     </>

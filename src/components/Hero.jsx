@@ -29,20 +29,22 @@ export default function Hero() {
         </div>
       </div>
 
-      <p className="typewriter-signature reveal" aria-label="Sarath K">
-        <span className="typewriter-text" aria-hidden="true">
-          {signature}
-        </span>
-        <span className="typewriter-caret" aria-hidden="true" />
-      </p>
+      <div className="hero-aside">
+        <p className="typewriter-signature reveal" aria-label="Sarath K">
+          <span className="typewriter-text" aria-hidden="true">
+            {signature}
+          </span>
+          <span className="typewriter-caret" aria-hidden="true" />
+        </p>
 
-      <p className="availability reveal">
-        <span>Open to</span>
-        <strong>Backend roles</strong>
-        <a href="#contact">
-          Fresher opportunities <span aria-hidden="true">↗</span>
-        </a>
-      </p>
+        <p className="availability reveal">
+          <span>Open to</span>
+          <strong>Backend roles</strong>
+          <a href="#contact">
+            Fresher opportunities <span aria-hidden="true">↗</span>
+          </a>
+        </p>
+      </div>
     </section>
   );
 }

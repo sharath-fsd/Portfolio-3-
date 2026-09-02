@@ -6,7 +6,7 @@ export default function Skills() {
   return (
     <section className="services page-shell" id="skills" aria-labelledby="services-title">
       <SectionHeading
-        index="04 / Technical stack"
+        index="03 / Technical stack"
         title="Backend"
         titleId="services-title"
       />
