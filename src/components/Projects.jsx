@@ -27,15 +27,34 @@ function ProjectCard({ project }) {
             <li key={detail}>{detail}</li>
           ))}
         </ul>
+        {project.categories && (
+          <p className="project-categories">
+            <strong>Expense categories</strong>
+            {project.categories.join(" · ")}
+          </p>
+        )}
       </div>
-      <a
-        href={project.repository}
-        target="_blank"
-        rel="noreferrer"
-        aria-label={project.repositoryLabel}
-      >
-        GitHub repository <span aria-hidden="true">↗</span>
-      </a>
+      <footer className="project-actions">
+        {project.demo && (
+          <a
+            className="project-action-primary"
+            href={project.demo}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={project.demoLabel}
+          >
+            Live demo <span aria-hidden="true">↗</span>
+          </a>
+        )}
+        <a
+          href={project.repository}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={project.repositoryLabel}
+        >
+          GitHub repository <span aria-hidden="true">↗</span>
+        </a>
+      </footer>
     </article>
   );
 }

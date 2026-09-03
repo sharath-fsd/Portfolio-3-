@@ -54,6 +54,37 @@ export const projects = [
     repository: "https://github.com/sharath-fsd/Car-Rental-Management-System-Project",
     repositoryLabel: "Open the Car Rental Management System on GitHub",
   },
+  {
+    number: "04",
+    title: ["Smart Personal", "Finance Tracker"],
+    image: `${import.meta.env.BASE_URL}assets/projects/smart-personal-finance-tracker.jpg`,
+    imageAlt: "Financial dashboard illustration from the Smart Personal Finance Tracker live demo",
+    stack:
+      "React.js 18 · JavaScript / JSX · Vite 5 / React SWC · React Router 6 · Tailwind CSS 3 · shadcn/ui · Radix UI · Recharts · date-fns · Lucide React · localStorage · ESLint",
+    context:
+      "A browser-based expense tracker for recording daily spending, exploring category breakdowns, and reviewing transaction history in Indian rupees (₹). No backend, database, API key, or environment variables required.",
+    details: [
+      "Implemented expense entry for amount, category, description, and date with required-field validation and positive-amount checks.",
+      "Built a dashboard showing total spending, current-month expenses, month-over-month change, transaction count, and average expense.",
+      "Created Recharts pie, bar, and line charts for spending by category, the top five categories, and daily spending trends.",
+      "Added transaction-history search by description or category, category filtering, and sorting by date, amount, or category.",
+      "Used React state and localStorage to persist expenses between visits and update dashboard totals when transactions are deleted.",
+      "Developed responsive layouts with Tailwind CSS, shadcn/ui, and Radix UI, plus React Router navigation and a not-found page; used date-fns for date formatting and spending-period calculations.",
+    ],
+    categories: [
+      "Food & Dining",
+      "Transportation",
+      "Entertainment",
+      "Shopping",
+      "Bills & Utilities",
+      "Healthcare",
+      "Other",
+    ],
+    demo: "https://smart-expenses.netlify.app/",
+    demoLabel: "Open the Smart Personal Finance Tracker live demo (opens in a new tab)",
+    repository: "https://github.com/sharath-fsd/Smart-Personal-Finace-Tracker-.git",
+    repositoryLabel: "Open the Smart Personal Finance Tracker GitHub repository (opens in a new tab)",
+  },
 ];
 
 export const capabilities = [

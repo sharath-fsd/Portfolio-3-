@@ -1,5 +1,6 @@
 import Icon from "./Icon.jsx";
 import SectionHeading from "./SectionHeading.jsx";
+import { projects } from "../data/portfolio.js";
 
 const leetCodeUrl = "https://leetcode.com/u/dW5Hu0XQfj/";
 
@@ -37,8 +38,8 @@ export default function About() {
 
       <dl className="metric-grid">
         <div className="metric reveal">
-          <dt>Backend projects</dt>
-          <dd>3</dd>
+          <dt>Featured projects</dt>
+          <dd>{projects.length}</dd>
         </div>
         <div className="metric reveal">
           <dt>LeetCode problems solved</dt>
